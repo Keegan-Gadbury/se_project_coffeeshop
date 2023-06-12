@@ -10,6 +10,7 @@
 }
 
 .header {
+  position: relative;
   background-color: #ffffff;
   background-image: url(/images/background_header.svg);
   background-repeat: no-repeat;
@@ -91,11 +92,12 @@
 
 .header__footer {
   display: flex;
-  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
   box-sizing: border-box;
-  background-color: #ffffff;
   color: #000000;
-  padding: 0 0 40px 80px;
+  padding: 250px 0 40px 80px;
+  align-content: flex-end;
 }
 
 .header__paragraph {
@@ -103,4 +105,9 @@
   font-weight: 500;
   color: #838383;
   margin: 0;
+  align-self: flex-end;
+}
+
+.header__paragraph:last-child {
+  margin-right: 80px;
 }
