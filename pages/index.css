@@ -146,6 +146,11 @@
   align-items: center;
 }
 
+.recipes__iframe {
+  height: 273px;
+  width: 480px;
+}
+
 .recipes__video-caption {
   color: #ffffff;
   font-weight: 500;
