@@ -190,11 +190,11 @@
 }
 
 .form {
-  margin: 0 auto;
-  max-width: 385px;
 }
 
-.form__reservation {
+.reservation__form {
+  margin: 0 auto;
+  max-width: 385px;
 }
 
 .form__fieldset {
