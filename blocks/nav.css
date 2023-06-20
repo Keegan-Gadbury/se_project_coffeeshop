@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0;
+  font-weight: 500;
+}
+
+.nav__logo {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  height: 142px;
+  width: 125px;
+}
+
+.nav__links {
+  display: flex;
+  padding: 30px 80px 0 0;
+  list-style-type: none;
+  column-gap: 20px;
+  margin: 0 0 0 0;
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+}
