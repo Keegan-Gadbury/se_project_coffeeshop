@@ -9,6 +9,7 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
+  z-index: 1;
 }
 
 .header__title {
@@ -48,7 +49,7 @@
   width: 646px;
   right: 5px;
   top: 124px;
-  z-index: 1;
+  z-index: -1;
 }
 
 .header__footer {

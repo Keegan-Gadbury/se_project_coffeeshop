@@ -38,6 +38,13 @@
   text-indent: 20px;
 }
 
+.form__checkbox {
+  border-radius: 2px;
+  background-color: #2d80ed;
+  background-image: url("../images/check.svg");
+  height: 20px;
+  width: 20px;
+}
 .form__button {
   opacity: 1;
   margin-bottom: 32px;
@@ -60,4 +67,5 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
+  column-gap: 12px;
 }
