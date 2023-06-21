@@ -13,4 +13,4 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- I would like to make a login page, where customers can mobile order their coffee, save their favorite drinks, and share them with friends!
