@@ -29,7 +29,11 @@
   font-family: "Inter", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
+}
+
+.form__input::placeholder {
   color: #838383;
+  text-indent: 20px;
 }
 
 .form__button {
@@ -61,8 +65,4 @@
   height: 20px;
   margin-right: 12px;
   align-self: center;
-}
-
-::placeholder {
-  color: #838383;
 }
