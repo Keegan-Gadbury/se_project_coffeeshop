@@ -3,7 +3,7 @@
   flex-direction: column;
   position: relative;
   background-color: #ffffff;
-  background-image: url(/images/background_header.svg);
+  background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -18,8 +18,9 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 80px 0 28px 80px;
+  padding: 110px 0 28px 80px;
   max-width: 729px;
+  font-weight: 500;
 }
 
 .header__span-accent {
